@@ -105,26 +105,3 @@ fi
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
-
-# nvm stuff
-export NVM_DIR="$HOME/.nvm"
-. /usr/local/opt/nvm/nvm.sh
-. /usr/local/opt/nvm/etc/bash_completion.d/nvm  # This loads nvm bash_completion
-
-[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion # git bash completion
-
-export PATH="$PATH:"/Applications/microchip/xc32/v1.44/bin""
-
-# Rust stuff?
-export PATH="$HOME/.cargo/bin:$PATH:/opt/parallax/bin/"
-export DYLD_LIBRARY_PATH=$(rustc --print sysroot)/lib:$DYLD_LIBRARY_PATH
-
-# added by Anaconda3 5.0.1 installer
-export PATH="/Users/ericmdai/anaconda3/bin:$PATH"
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/ericmdai/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/ericmdai/Downloads/google-cloud-sdk/path.bash.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/ericmdai/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/ericmdai/Downloads/google-cloud-sdk/completion.bash.inc'; fi
-
