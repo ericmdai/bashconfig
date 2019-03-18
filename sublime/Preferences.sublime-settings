@@ -1,0 +1,22 @@
+{
+    "always_show_minimap_viewport": true,
+    "bold_folder_labels": true,
+    "caret_extra_bottom": 2,
+    "caret_extra_top": 2,
+    "caret_extra_width": 2,
+    "caret_style": "phase",
+    "color_scheme": "Packages/Materialize/schemes/Material Brogrammer.tmTheme",
+    "drag_text": false,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "line_padding_bottom": 1,
+    "line_padding_top": 1,
+    "material_theme_contrast_mode": true,
+    "overlay_scroll_bars": "enabled",
+    "scroll_past_end": true,
+    "theme": "Material Brogrammer.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+}

@@ -1,2 +1,2 @@
-# bashconfig
-Bash files backup
+# Configs
+Various config backups
