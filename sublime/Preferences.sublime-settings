@@ -7,6 +7,7 @@
     "caret_style": "phase",
     "color_scheme": "Packages/Materialize/schemes/Material Brogrammer.tmTheme",
     "drag_text": false,
+    "ensure_newline_at_eof_on_save": true,
     "ignored_packages":
     [
         "Vintage"
