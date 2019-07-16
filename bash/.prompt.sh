@@ -29,9 +29,10 @@ function __prompt_command() {
     local comp_name=$(hostname -f)
 
     local venv=$magenta
+    local conda=$light_blue
     local name=$green
     local comp=$green
-    local path=$cyan
+    local path=$magenta
     local branch=$yellow
     local exit_code=$red
 
@@ -43,7 +44,12 @@ function __prompt_command() {
 
     # Showing python virtual environment if active
     if [[ -n $VIRTUAL_ENV ]]; then
-        PS1="${venv}(venv)${RCol} ${PS1}"
+        PS1="(${venv}venv${RCol}) ${PS1}"
+    fi
+
+    # Showing conda environment if active
+    if [[ -n $CONDA_DEFAULT_ENV ]]; then
+        PS1="(${conda}${CONDA_DEFAULT_ENV}${RCol}) ${PS1}"
     fi
 
     # Git branch info
