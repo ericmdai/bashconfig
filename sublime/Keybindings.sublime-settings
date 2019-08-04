@@ -1,0 +1,17 @@
+[
+    // Sublime
+    { "keys": ["ctrl+shift+a"], "command": "find_all_under" },
+    { "keys": ["ctrl+tab"], "command": "next_view" },
+    { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
+
+    // Origami:
+    { "keys": ["ctrl+alt+left"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+    { "keys": ["ctrl+alt+right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+alt+up"], "command": "carry_file_to_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+alt+down"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+alt+shift+left"], "command": "create_pane", "args": {"direction": "left"} },
+    { "keys": ["ctrl+alt+shift+right"], "command": "create_pane", "args": {"direction": "right"} },
+    { "keys": ["ctrl+alt+shift+up"], "command": "create_pane", "args": {"direction": "up"} },
+    { "keys": ["ctrl+alt+shift+down"], "command": "create_pane", "args": {"direction": "down"} },
+    { "keys": ["ctrl+alt+backspace"], "command": "destroy_pane", "args": {"direction": "self"} },
+]

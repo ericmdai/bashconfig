@@ -1,0 +1,13 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Material Theme Ocean High Contrast]": {
+            "strings": "#66ffa6"
+        }
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.iconTheme": "vs-minimal",
+    "python.jediEnabled": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
