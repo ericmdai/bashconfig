@@ -4,10 +4,11 @@
             "strings": "#66ffa6"
         }
     },
+    "editor.wordWrap": "on",
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
+    "python.jediEnabled": false,
     "workbench.colorTheme": "Material Theme Ocean High Contrast",
     "workbench.iconTheme": "vs-minimal",
-    "python.jediEnabled": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
 }
