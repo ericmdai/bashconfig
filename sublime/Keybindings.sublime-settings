@@ -1,6 +1,7 @@
 [
     // Sublime
-    { "keys": ["ctrl+shift+a"], "command": "find_all_under" },
+    // { "keys": ["ctrl+shift+a"], "command": "find_all_under" }, // Windows
+    { "keys": ["super+shift+a"], "command": "find_all_under" }, // macOS
     { "keys": ["ctrl+tab"], "command": "next_view" },
     { "keys": ["ctrl+shift+tab"], "command": "prev_view" },
 
