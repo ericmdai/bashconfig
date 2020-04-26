@@ -5,6 +5,7 @@ alias profile="subl ~/.bash_profile"
 alias aliases="subl ~/.bash_aliases"
 alias proxy="subl ~/.bash_proxy"
 alias refresh="source ~/.bash_profile && clear"
+alias path="echo $PATH"
 
 # Weird navigation commands I never use
 alias back="cd -"
@@ -15,13 +16,14 @@ alias lsla="ls -la"
 alias lsal="ls -al"
 
 # Python aliases
-alias python="python2"
-alias pip="pip2"
+# alias python="python2"
+# alias pip="pip2"
 alias venv="virtualenv venv"
 alias activate="source venv/bin/activate"
 alias pyserver="python -m SimpleHTTPServer"
 
 # Directory shortcuts
+alias dl="cd ~/Downloads/"
 alias down="cd ~/Downloads/"
 
 # SSH shortcuts
